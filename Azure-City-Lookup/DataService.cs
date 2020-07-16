@@ -43,6 +43,7 @@ namespace Azure_City_Lookup
                     {
                         city.Name = value;
                         cities.Add(city);
+
                         city = new City();
                     }
                 }

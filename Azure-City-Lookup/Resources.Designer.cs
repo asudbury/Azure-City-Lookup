@@ -61,46 +61,7 @@ namespace Azure_City_Lookup {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [
-        ///  {
-        ///    &quot;c&quot;: &quot;And&quot;,
-        ///    &quot;n&quot;: &quot;les Escaldes&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;And&quot;,
-        ///    &quot;n&quot;: &quot;Andorra la Vella&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Umm al Qaywayn&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Ras al-Khaimah&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Khawr Fakkān&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Dubai&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Dibba Al-Fujairah&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Dibba Al-Hisn&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: &quot;Sharjah&quot;
-        ///  },
-        ///  {
-        ///    &quot;c&quot;: &quot;UAE&quot;,
-        ///    &quot;n&quot;: [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to [{&quot;c&quot;:&quot;Pal&quot;,&quot;n&quot;:&quot;‘Abasān al Kabīrah&quot;},{&quot;c&quot;:&quot;Iraq&quot;,&quot;n&quot;:&quot;‘Afak&quot;},{&quot;c&quot;:&quot;Saudi Arabia&quot;,&quot;n&quot;:&quot;‘Afīf&quot;},{&quot;c&quot;:&quot;Syria&quot;,&quot;n&quot;:&quot;‘Afrīn&quot;},{&quot;c&quot;:&quot;Israel&quot;,&quot;n&quot;:&quot;‘Afula ‘Illit&quot;},{&quot;c&quot;:&quot;Alg&quot;,&quot;n&quot;:&quot;‘Aïn el Hadjel&quot;},{&quot;c&quot;:&quot;Iran&quot;,&quot;n&quot;:&quot;‘Ajab Shīr&quot;},{&quot;c&quot;:&quot;Jor&quot;,&quot;n&quot;:&quot;‘Ajlūn&quot;},{&quot;c&quot;:&quot;Israel&quot;,&quot;n&quot;:&quot;‘Akko&quot;},{&quot;c&quot;:&quot;Iraq&quot;,&quot;n&quot;:&quot;‘Alī al Gharbī&quot;},{&quot;c&quot;:&quot;Yemen&quot;,&quot;n&quot;:&quot;‘Amrān&quot;},{&quot;c&quot;:&quot;Iraq&quot;,&quot;n&quot;:&quot;‘Anat al Qadīmah&quot;},{&quot;c&quot;:&quot;Jor&quot;,&quot;n&quot;:&quot;‘Anjarah&quot;},{&quot;c&quot;:&quot;Iraq&quot;,&quot;n&quot;:&quot;‘Aqrah&quot;},{&quot;c&quot;:&quot;Saudi Arabia&quot....
         /// </summary>
         internal static string CityData {
             get {
