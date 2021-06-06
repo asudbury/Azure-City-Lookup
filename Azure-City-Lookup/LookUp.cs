@@ -21,17 +21,23 @@ namespace Azure_City_Lookup
 
             string query = req.Query["q"];
 
-            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            dynamic data = JsonConvert.DeserializeObject(requestBody);
-            query = query.ToLower() ?? data?.name;
+            if (query != null)
+            {
+                string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+                dynamic data = JsonConvert.DeserializeObject(requestBody);
+                query = query.ToLower() ?? data?.name;
 
-            string cityData = Resources.CityData;
+                string cityData = Resources.CityData;
 
-            IEnumerable<City> matches = DataService.GetCities(cityData, query);
+                IEnumerable<City> matches = DataService.GetCities(cityData, query);
 
-            string jsonString = DataService.GetJson(matches);
+                string jsonString = DataService.GetJson(matches);
 
-            return new OkObjectResult(jsonString);
+                return new OkObjectResult(jsonString);
+            }
+
+            return new OkObjectResult("no city provided!");
+
         }
     }
 }
